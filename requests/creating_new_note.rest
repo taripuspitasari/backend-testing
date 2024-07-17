@@ -1,7 +1,9 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRhbWVuamkiLCJpZCI6IjY2OGUzN2ZjOWQ0MWY1YmEzMzI4YTY4NSIsImlhdCI6MTcyMDU5NjU0OCwiZXhwIjoxNzIwNjAwMTQ4fQ.cwaa6JMa_miFioARIPvJ5WKp0v8wZUFwE5-zg9cCHB4
 
 {
-  "content": "Ensure that everything still works",
-  "important": true
+  "content": "ini baru lagi?",
+  "important": true,
+  "userId": "6682163ff99970aa2ce7a55d"
 }
